@@ -55,6 +55,8 @@ main {
     max-width: 50vw;
     width: 500px;
     border:1px solid #eee;
+    border-radius: 30px;
+    height: 40px;
 }
 
 #searchbar:hover {
@@ -64,11 +66,18 @@ main {
 #searchbox {
     border: none;
     outline:none;
+    width: 80%;
+}
+
+#searchbar img {
+    margin: 14px 8px 10px 6px;
+    height: 28px;
 }
 
 #lower-buttons-div {
     display: flex;
     justify-content: space-between;
+    padding: auto 10px;
     width: 250px;
     margin: 20px auto;
 }
@@ -94,7 +103,6 @@ main {
 }
 
 #lang-text a {
-    text-decoration: underline;
     color: blue;
 }
 
