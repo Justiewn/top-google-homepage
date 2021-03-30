@@ -93,6 +93,11 @@ main {
     font-size: 14px;
 }
 
+#lang-text a {
+    text-decoration: underline;
+    color: blue;
+}
+
 footer {
     padding: 0px 30px;
     height: 12vh;
@@ -103,11 +108,16 @@ footer {
 }
 
 #footer-top {
-    padding-left: 10px;
-    
+    padding: 12px 10px 12px 10px;
+}
+
+#footer-top p {
+    margin: 0px;
 }
 
 #footer-bot {
+    border-top: 1px solid rgb(200, 200, 200);
+    padding-top: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -115,4 +125,5 @@ footer {
 
 #footer-bot a {
     margin: 0px 10px;
+    color:hsl(0, 0%, 40%);
 }
