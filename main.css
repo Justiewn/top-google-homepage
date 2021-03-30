@@ -43,13 +43,16 @@ main {
 
 #searchbar {
     display: flex;
-    align-items: center;;
-    border-radius: 5%;
+    align-items: center;
+    justify-content: space-between;
     margin: 20px auto;
+    max-width: 50vw;
+    width: 500px;
+    border:1px solid #eee;
 }
 
 #searchbar:hover {
-    box-shadow: 4px 4px 5px grey;
+    box-shadow: 0px 0px 8px grey, 0px 0px 8px grey;
 }
 
 #searchbox {
@@ -57,10 +60,19 @@ main {
     outline:none;
 }
 
-#lower-buttons {
+#lower-buttons-div {
     display: flex;
     justify-content: space-between;
+    width: 250px;
     margin: 20px auto;
+}
+
+.lower-buttons:hover {
+    border:1px solid grey;
+}
+
+#lower-buttons-div input {
+    border: black;
 }
 
 #IFL-button {
