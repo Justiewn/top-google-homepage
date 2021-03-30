@@ -1,10 +1,18 @@
 /* * { border: 1px solid black; } */
 
+a {
+    text-decoration: none;
+}
 
 a:visited {
     color: black;
     text-decoration: none;
 }
+
+a:hover {
+    text-decoration: underline;
+}
+
 
 body {
     margin:0;
@@ -19,10 +27,8 @@ body {
 
 
 #navbar a {
-    margin: 0px 12px ;
+    margin: 0px 12px;
     font-size: 14px;
-    text-decoration: none;
-
 }
 
 .nav-img {
@@ -67,8 +73,10 @@ main {
     margin: 20px auto;
 }
 
+
 .lower-buttons:hover {
-    border:1px solid grey;
+    outline: grey solid 1px;
+    text-decoration: none;
 }
 
 #lower-buttons-div input {
@@ -78,8 +86,8 @@ main {
 #IFL-button {
     padding: 5px;
     background: hsl(0, 0%, 90%);
-    text-decoration: none;
 }
+
 
 #lang-text {
     font-size: 14px;
@@ -106,6 +114,5 @@ footer {
 }
 
 #footer-bot a {
-    text-decoration: none;
     margin: 0px 10px;
 }
