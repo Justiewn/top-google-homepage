@@ -48,6 +48,7 @@ main {
 }
 
 #logo {
+    margin-top: -120px;
 }
 
 #searchbar {
@@ -55,8 +56,8 @@ main {
     align-items: center;
     justify-content: space-between;
     margin: 20px auto;
-    max-width: 50vw;
-    width: 580px;
+    max-width: 580px;
+    width: 90vw;
     border:1px solid rgb(221, 221, 221);
     border-radius: 30px;
     height: 40px;
@@ -70,6 +71,7 @@ main {
     border: none;
     outline:none;
     width: 80%;
+    height: 28px;
 }
 
 #searchbar img {
@@ -113,7 +115,7 @@ main {
 }
 
 #lang-text a {
-    color: blue;
+    color: rgba(0, 0, 150, 0.918);
 }
 
 footer {
