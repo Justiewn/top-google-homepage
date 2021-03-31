@@ -31,7 +31,7 @@ body {
 
 #navbar a {
     margin: 0px 12px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .nav-img {
@@ -56,14 +56,14 @@ main {
     justify-content: space-between;
     margin: 20px auto;
     max-width: 50vw;
-    width: 500px;
+    width: 580px;
     border:1px solid rgb(221, 221, 221);
     border-radius: 30px;
     height: 40px;
 }
 
 #searchbar:hover {
-    box-shadow: 0px 0px 4px rgb(185, 185, 185), 0px 0px 4px rgb(185, 185, 185);
+    box-shadow: 0 0 5px rgb(202, 202, 202);
 }
 
 #searchbox {
@@ -81,23 +81,31 @@ main {
     display: flex;
     justify-content: space-between;
     padding: auto 10px;
-    width: 250px;
+    width: 270px;
     margin: 20px auto;
 }
 
+.lower-buttons {
+    border-radius: 3px;
+    border: none;
+    background-color: hsl(0, 0%, 97%);
+    color:rgb(66, 66, 66);
+    width: 120px;
+}
+
 .lower-buttons:hover {
-    outline: grey solid 1px;
+    box-shadow: 0 0 1px 1px rgb(180, 180, 180);
     text-decoration: none;
 }
 
 #lower-buttons-div input {
-    border: black;
+    font-size: 14px;
 }
 
 #IFL-button {
+    color:rgb(66, 66, 66); 
     font-size: 14px;
-    padding: 5px;
-    background: hsl(0, 0%, 90%);
+    padding: 10px;
 }
 
 #lang-text {
