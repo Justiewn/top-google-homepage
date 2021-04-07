@@ -1,1 +1,1 @@
-Project goal: Reproduce the Google.com homepage using my knowledge of HTML and CSS.
+Project goal: Reproduce the Google.com homepage using knowledge of HTML and CSS.
